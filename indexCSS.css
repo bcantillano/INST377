@@ -1,4 +1,4 @@
-/* Style sheet for Index.html */
+/* Style sheet for Index.html (Current Music)*/
 
 body {
     color:#ffffff;
@@ -20,6 +20,12 @@ body {
     padding : 5px;
   }
 
+#albumCover {
+    border-style : solid;
+    border-color : #ffffff;
+    border-width : 3px;
+}
+
   .artistImage {
     display: block;
     margin-left: auto;
@@ -30,7 +36,20 @@ body {
     border-width : 3px;
   }
 
+/*
   .spotifyPreview {
 
-    align-items: center;
+    align-content: center
+    
+    
   }
+*/
+
+/*
+  .musicPlayer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  }
+*/
