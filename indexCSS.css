@@ -26,30 +26,24 @@ body {
     border-width : 3px;
 }
 
-  .artistImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-style : solid;
-    border-color : #ffffff;
-    border-width : 3px;
-  }
+#ArtistField{
+  background-color: rgb(60, 60, 60)
+}
 
-/*
-  .spotifyPreview {
+.artistImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style : solid;
+  border-color : #ffffff;
+  border-width : 3px;
+}
 
-    align-content: center
-    
-    
-  }
-*/
+#Spotify {
+  background-color: rgb(83, 211, 76)
+}
 
-/*
-  .musicPlayer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-  }
-*/
+#travis {
+  background-color: rgb(164, 89, 255)
+}

@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Index.html Page</title>
-        <link rel="stylesheet" href="indexCSS.css">
-    </head>
+
+    <div id= "header">
+        <head>
+            <title>Byron Cantillano</title>
+            <link rel="stylesheet" href="indexCSS.css">
+        </head>
+    </div>
 
     <body>
 
         <h1>Byron's Index.html Page for INST377</h1>
             <p> <a href="https://open.spotify.com/artist/3tL5ZjOpuEj4PhimEyNbgF?si=HEZvak3XQn69Vh0HO2Ecpw">Check out my music!</a> </p>
         <h2>Music Im Currently Listening to:</h2>
-            <p>
+
+            <div id="ArtistField">
                 
                     <!---------------------------------------------- Artist Field -------------------------------------------------> 
-                    <h3 id="artist">Travis Scott</h3>
+                    <div id="travis">
+                        <h3 id="artist">Travis Scott</h3>
                         <br>
                         <img src="Images/TravisScotGQ.jpg" alt="Travis Profile Pic" style="width:400px;height:500px;" class="artistImage">
                         
-                             <p>
+                             
                                 <h3>Latest Album</h3>
                                 <img src="Images/Covers/Astroworld.jpg" id="albumCover" >
 
-                                <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                <iframe src="https://open.spotify.com/embed/album/41GuZcammIkupMPKH2OJ6I" width="300" height="300" frameborder="0" 
-                                allowtransparency="true" allow="encrypted-media" class="spotifyPreview" class="musicPlayer"></iframe>
-                                <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                
+                                <div id="Spotify"> 
+                                    <!---------------------------------------------- Spotify Embed--------------------------------------------------->
+                                    <iframe src="https://open.spotify.com/embed/album/41GuZcammIkupMPKH2OJ6I" width="300" height="300" frameborder="0" 
+                                    allowtransparency="true" allow="encrypted-media"></iframe>
+                                    <!---------------------------------------------- Spotify Embed--------------------------------------------------->
+                                </div> 
+
                                 <br>
                                 <b><ins>Description:</ins></b>
                                 Astroworld (stylized in all caps) is the third studio album by American rapper and record producer Travis Scott. 
@@ -35,7 +42,7 @@
                                 Drake, The Weeknd, James Blake, Swae Lee, Gunna, Philip Bailey, Nav, 21 Savage, Quavo, Takeoff, Juice Wrld, Sheck Wes, 
                                 and Don Toliver, among others. Production was handled by multiple producers, including Mike Dean, Allen Ritter, Hit-Boy, 
                                 WondaGurl, Tay Keith, Tame Impala, Frank Dukes, Sonny Digital, and Thundercat.
-                            </p>
+                </div>
                                     <hr>
 
                     <h3 id="artist">Lil Uzi Vert</h3>
@@ -48,7 +55,7 @@
 
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
                                 <iframe src="https://open.spotify.com/embed/album/0zicd2mBV8HTzSubByj4vP" width="300" height="300" frameborder="0" 
-                                allowtransparency="true" allow="encrypted-media" class="spotifyPreview" class="musicPlayer"></iframe>
+                                allowtransparency="true" allow="encrypted-media"></iframe>
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
 
                                 <br>
@@ -72,7 +79,7 @@
 
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
                                 <iframe src="https://open.spotify.com/embed/album/1ATL5GLyefJaxhQzSPVrLX" width="300" height="300" frameborder="0" 
-                                allowtransparency="true" allow="encrypted-media" class="spotifyPreview" class="musicPlayer"></iframe>
+                                allowtransparency="true" allow="encrypted-media" ></iframe>
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
 
                                 <br>
@@ -98,7 +105,7 @@
 
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
                                 <iframe src="https://open.spotify.com/embed/album/1bnHPO4dKK7IjvgrtVBcQh" width="300" height="300" frameborder="0"
-                                 allowtransparency="true" allow="encrypted-media" class="spotifyPreview" class="musicPlayer"></iframe>
+                                 allowtransparency="true" allow="encrypted-media"></iframe>
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
 
                                 <br>
@@ -112,7 +119,7 @@
                              </p>
                                     <hr>
                     <!-------------------------------------------------Artist Field ------------------------------------------------------> 
-            </p>
+                </div>
 
     </body>
 </html>
