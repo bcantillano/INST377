@@ -9,29 +9,31 @@
     </div>
 
     <body>
-        <p> <a href="https://open.spotify.com/artist/3tL5ZjOpuEj4PhimEyNbgF?si=HEZvak3XQn69Vh0HO2Ecpw">Check out my music!</a> </p>
 
-        <h1>Music Im Currently Listening to:</h1>
+        <h1>Music Im Currently Listening to</h1>
             <!---------------------------------------------- Artist Field -------------------------------------------------> 
             <div id="ArtistField">
                 
                 <div id="travis">
-                    <h2 id="artistName">Travis Scott</h2>
+                    <h2 class="artistName">Travis Scott</h2>
              
                         <img src="Images/TravisScotGQ.jpg" alt="Travis Profile Pic" style="width:400px;height:500px;" class="artistImage">
-                        
+                            
                             <h3>Latest Album</h3>
-                                <img src="Images/Covers/Astroworld.jpg" id="albumCover" >
 
-                                <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                <div id="Spotify"> 
-                                   
-                                    <iframe src="https://open.spotify.com/embed/album/41GuZcammIkupMPKH2OJ6I" width="300" height="300" frameborder="0" 
-                                    allowtransparency="true" allow="encrypted-media"></iframe>
-                                   
-                                </div> 
-                                <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                
+                            <div class="AlbumContainer">   
+                                    <img src="Images/Covers/Astroworld.jpg" class="albumCover" >
+
+                                    <!---------------------------------------------- Spotify Embed--------------------------------------------------->
+                                    <div class="SpotifyPlayer"> 
+                                    
+                                        <iframe src="https://open.spotify.com/embed/album/41GuZcammIkupMPKH2OJ6I" width="300" height="300" frameborder="0" 
+                                        allowtransparency="true" allow="encrypted-media"></iframe>
+                                    
+                                    </div> 
+                                    <!---------------------------------------------- Spotify Embed--------------------------------------------------->
+                            </div>
+
                                 <b><ins>Description:</ins></b>
                                 Astroworld (stylized in all caps) is the third studio album by American rapper and record producer Travis Scott. 
                                 It was released on August 3, 2018, by Cactus Jack Records, Epic Records, and Grand Hustle Records. 
@@ -39,23 +41,26 @@
                                 album Huncho Jack, Jack Huncho (2017) with Quavo. The album features guest vocals from Kid Cudi, Frank Ocean, 
                                 Drake, The Weeknd, James Blake, Swae Lee, Gunna, Philip Bailey, Nav, 21 Savage, Quavo, Takeoff, Juice Wrld, Sheck Wes, 
                                 and Don Toliver, among others. Production was handled by multiple producers, including Mike Dean, Allen Ritter, Hit-Boy, 
-                                WondaGurl, Tay Keith, Tame Impala, Frank Dukes, Sonny Digital, and Thundercat. <a href="https://en.wikipedia.org/wiki/Astroworld_(album)">Wiki</a>
+                                WondaGurl, Tay Keith, Tame Impala, Frank Dukes, Sonny Digital, and Thundercat. <a href="https://en.wikipedia.org/wiki/Astroworld_(album)">Wikipedia</a>
                 </div>
                     
                 <div id= "uzi">
-                    <h2 id="artistName">Lil Uzi Vert</h2>
+                    <h2 class="artistName">Lil Uzi Vert</h2>
                         
                         <img src="Images/liluzi.jpg" alt="Uzi Profile Pic" style="width:440px;height:293px;" class="artistImage">  
 
                             <h3>Latest Album</h3>
-                                <img src="Images/Covers/liluziluveisrage2.jpg" id="albumCover" style="width:200px;height:200px;">
+
+                            <div class="AlbumContainer"> 
+                                <img src="Images/Covers/liluziluveisrage2.jpg" class="albumCover" style="width:200px;height:200px;">
 
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                <div id="Spotify">
+                                <div class="SpotifyPlayer">
                                     <iframe src="https://open.spotify.com/embed/album/0zicd2mBV8HTzSubByj4vP" width="300" height="300" frameborder="0" 
                                     nallowtransparency="true" allow="encrypted-media"></iframe>
                                 </div>
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
+                            </div>
 
                                 <b><ins>Description:</ins></b>
                                 Luv Is Rage 2 is the debut studio album by American rapper Lil Uzi Vert. It was released on August 25, 2017, 
@@ -63,23 +68,25 @@
                                 Luv Is Rage (2015). It features guest appearances from The Weeknd, Oh Wonder and Pharrell Williams. 
                                 Luv Is Rage 2 was supported by three singles: "XO Tour Llif3", "The Way Life Goes" and "Sauce It Up". 
                                 The album debuted at number one on the US Billboard 200 with 135,000 album-equivalent units, and received 
-                                positive critical reviews from critics.<a href="https://en.wikipedia.org/wiki/Luv_Is_Rage_2">Wiki</a>
+                                positive critical reviews from critics.<a href="https://en.wikipedia.org/wiki/Luv_Is_Rage_2">Wikipedia</a>
                 </div>
 
                 <div id="drake">
-                    <h2 id="artistName">Drake</h2>
+                    <h2 class="artistName">Drake</h2>
                         
                         <img src="Images/Drake.jpg" alt="Drake Profile Pic" style="width:400px;height:400px;" class="artistImage">
 
                             <h3>Latest Album</h3>
-                                <img src="Images/Covers/scorpion.jpg" id="albumCover" style="width:200px;height:200px; ">
+                            <div class="AlbumContainer"> 
+                                <img src="Images/Covers/scorpion.jpg" class="albumCover" style="width:200px;height:200px; ">
 
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                <div id="Spotify">
+                                <div class="SpotifyPlayer">
                                     <iframe src="https://open.spotify.com/embed/album/1ATL5GLyefJaxhQzSPVrLX" width="300" height="300" frameborder="0" 
                                     allowtransparency="true" allow="encrypted-media" ></iframe>
                                 </div>
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
+                            </div>
 
                                 <b><ins>Description:</ins></b>
                                 Scorpion is the fifth studio album by Canadian rapper Drake. It was released on June 29, 2018, by Cash Money Records, 
@@ -89,31 +96,35 @@
                                 by a variety of artists, including PartyNextDoor, Future, Lil Wayne, Nicki Minaj, and Nai Palm. It is executively produced 
                                 by Drake himself, alongside frequent collaborator Noah "40" Shebib and manager Oliver El-Khatib, and features production 
                                 from 40, alongside a variety of producers, including Allen Ritter, No I.D., Boi-1da, DJ Premier, DJ Paul, Tay Keith, 
-                                T-Minus, Murda Beatz, Cardo, and Noel Cadastre, among others. <a href="https://en.wikipedia.org/wiki/Scorpion_(Drake_album)">Wiki</a>      
+                                T-Minus, Murda Beatz, Cardo, and Noel Cadastre, among others. <a href="https://en.wikipedia.org/wiki/Scorpion_(Drake_album)">Wikipedia</a>      
                 </div>
 
-                <div id="thugger">        
-                    <h2 id="artistName">Young Thug</h2>
+                <div id="thugger">
+                    <h2 class="artistName">Young Thug</h2>
 
                         <img src="Images/young-thug.jpeg" alt="Thug Profile Pic" style="width:480px;height:500px;" class="artistImage">  
 
                             <h3>Latest Album</h3>
-                                <img src="Images/Covers/somuchfun.png" id="albumCover" style="width:200px;height:200px;">
+
+                            <div class="AlbumContainer"> 
+
+                                <img src="Images/Covers/somuchfun.png" class="albumCover" style="width:200px;height:200px;">
 
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-                                <div id="Spotify">
+                                <div class="SpotifyPlayer">
                                     <iframe src="https://open.spotify.com/embed/album/1bnHPO4dKK7IjvgrtVBcQh" width="300" height="300" frameborder="0"
                                     allowtransparency="true" allow="encrypted-media"></iframe>
                                  </div>
                                 <!---------------------------------------------- Spotify Embed--------------------------------------------------->
-
+                            </div>
+                            
                                 <b><ins>Description:</ins></b>
                                 So Much Fun is the debut studio album by American rapper Young Thug, it was released on August 16, 2019, 
                                 by 300 Entertainment and Atlantic Records. The album was executive produced by J. Cole. It features guest 
                                 appearances from Future, Machine Gun Kelly, Gunna, Lil Baby, Lil Uzi Vert, Lil Duke, 21 Savage, Doe Boy, 
                                 Lil Keed, Quavo, Juice Wrld, Nav, J. Cole, and Travis Scott. The album was supported by its lead single, 
                                 "The London". So Much Fun received generally positive reviews and debuted atop the Billboard 200, becoming 
-                                Young Thug's first US number-one album.<a href="https://en.wikipedia.org/wiki/So_Much_Fun">Wiki</a>
+                                Young Thug's first US number-one album.<a href="https://en.wikipedia.org/wiki/So_Much_Fun">Wikipedia</a>
                 </div>
                     
             </div>
