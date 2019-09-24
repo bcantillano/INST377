@@ -14,8 +14,11 @@ div {
 }
 
 h1 {
-
   text-align: center
+}
+
+li {
+  color: #000000
 }
 
 table {
@@ -37,6 +40,8 @@ table {
   }
 
 .albumCover {
+    width: 300px;
+    height: 300px;
     border-style : solid;
     border-color : #ffffff;
     border-width : 3px;
@@ -44,6 +49,12 @@ table {
 
 #ArtistField{
   background-color: rgb(60, 60, 60)
+}
+
+#PageTitle {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .artistImage {
