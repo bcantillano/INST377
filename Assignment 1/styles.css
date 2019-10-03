@@ -1,10 +1,10 @@
 /* Style sheet for Index.html (Current Music)*/
 
 body {
-    color:#ffffff;
-    background-color : #000000;
-    font-family : arial, verdana, sans-serif;
-  }
+  color: #ffffff;
+  background-color: #000000;
+  font-family: arial, verdana, sans-serif;
+}
 
 div {
   padding-left: 5px;
@@ -18,15 +18,16 @@ p {
   text-decoration: black;
   text-indent: 20px;
   letter-spacing: 1px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1 {
-  text-align: center
+  text-align: center;
 }
 
 li {
-  color: #000000
+  color: #000000;
 }
 
 table {
@@ -34,29 +35,29 @@ table {
 }
 
 .artistName {
-    font-size: 40px;    
-    text-align: center;
-    line-height: 82px;
-    letter-spacing: -.005em;
-    font-weight: var(--glue-font-weight-black);
-    color: #fff;
-    text-transform: none;
-    border-style : solid;
-    border-color : #ffffff;
-    border-width : 3px;
-    padding : 5px;
-  }
+  font-size: 40px;
+  text-align: center;
+  line-height: 82px;
+  letter-spacing: -0.005em;
+  font-weight: var(--glue-font-weight-black);
+  color: #fff;
+  text-transform: none;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  padding: 5px;
+}
 
 .albumCover {
-    width: 300px;
-    height: 300px;
-    border-style : solid;
-    border-color : #ffffff;
-    border-width : 3px;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
 }
 
 #ArtistField {
-  background-color: rgb(60, 60, 60)
+  background-color: rgb(60, 60, 60);
 }
 
 #PageTitle {
@@ -72,21 +73,21 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-style : solid;
-  border-color : #ffffff;
-  border-width : 3px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
 }
 
 .SpotifyPlayer {
   text-align: center;
   width: 60%;
-  background-color: rgb(69, 174, 63)
+  background-color: rgb(69, 174, 63);
 }
 
 .AlbumContainer {
   display: flex; /* or inline-flex */
   justify-content: space-around;
-  background-color: rgb(221, 255, 0)
+  background-color: rgb(221, 255, 0);
 }
 
 /* 
